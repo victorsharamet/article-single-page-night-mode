@@ -1,0 +1,53 @@
+/* 
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Sans', sans-serif;
+*/
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #F0F0F0;
+	padding: 10px 40px;
+  font-family: 'PT Sans', sans-serif;
+  transition: all 0.5s ease-in;
+}
+h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+article {
+  color: #40474E;
+	background-color: #F9F9F9;
+  padding: 10px 20px;
+  transition: all 0.5s ease-in;
+}
+.title {
+  text-align: center;
+  text-indent: 0;
+}
+.img-center {
+  text-align: center;
+  max-width: 100%;
+}
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+a {
+  color: #FF7F50;
+}
+.source {
+	text-align: center;
+	margin: 20px auto 20px auto;
+}
+.name {
+  font-weight: 700;
+}
+.nightmode {
+  background-color: black;
+}
+
+.nightmode article {
+  background-color: gray;
+  color: #FFF;
+}
